@@ -1,0 +1,266 @@
+================================================================================
+ANALYSE D'ARBORESCENCE DE PROJET
+================================================================================
+Date d'analyse: 2025-06-08 20:18:54
+Dossier analysé: C:\Users\dace\Documents\janvier 2025\contract\dbdint\docsign\electronic-signature-system
+Générateur: Script Python d'analyse d'arborescence
+================================================================================
+
+📁 electronic-signature-system/
+├── 📁 app/
+│   ├── 📄 globals.css [2.4KB - 2025-06-06 17:10:06]
+│   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   ├── 📄 layout.tsx [353B - 2025-06-06 17:10:06]
+│   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   └── 📄 page.tsx [2.4KB - 2025-06-06 17:10:06]
+│       └─ [FICHIER BINAIRE - Contenu non affiché]
+
+├── 📁 components/
+│   ├── 📁 ui/
+│   │   ├── 📄 accordion.tsx [1.9KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 alert-dialog.tsx [4.3KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 alert.tsx [1.5KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 aspect-ratio.tsx [154B - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 avatar.tsx [1.4KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 badge.tsx [1.1KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 breadcrumb.tsx [2.6KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 button.tsx [1.9KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 calendar.tsx [2.5KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 card.tsx [1.8KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 carousel.tsx [6.1KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 chart.tsx [10.2KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 checkbox.tsx [1.0KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 collapsible.tsx [329B - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 command.tsx [4.8KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 context-menu.tsx [7.1KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 dialog.tsx [3.8KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 drawer.tsx [3.0KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 dropdown-menu.tsx [7.3KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 form.tsx [4.0KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 hover-card.tsx [1.2KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 input-otp.tsx [2.1KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 input.tsx [791B - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 label.tsx [724B - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 menubar.tsx [7.8KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 navigation-menu.tsx [4.9KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 pagination.tsx [2.7KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 popover.tsx [1.2KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 progress.tsx [791B - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 radio-group.tsx [1.4KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 resizable.tsx [1.7KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 scroll-area.tsx [1.6KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 select.tsx [5.5KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 separator.tsx [770B - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 sheet.tsx [4.2KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 sidebar.tsx [22.8KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 skeleton.tsx [261B - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 slider.tsx [1.1KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 sonner.tsx [894B - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 switch.tsx [1.1KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 table.tsx [2.7KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 tabs.tsx [1.9KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 textarea.tsx [689B - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 toast.tsx [4.7KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 toaster.tsx [786B - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 toggle-group.tsx [1.7KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 toggle.tsx [1.5KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 tooltip.tsx [1.1KB - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   ├── 📄 use-mobile.tsx [565B - 2025-06-06 17:10:06]
+│   │   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   │   └── 📄 use-toast.ts [3.9KB - 2025-06-06 17:10:06]
+│   │       └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   ├── 📄 banking-information.tsx [8.0KB - 2025-06-06 17:10:06]
+│   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   ├── 📄 contract-completion.tsx [4.7KB - 2025-06-06 17:10:06]
+│   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   ├── 📄 contract-preview.tsx [7.8KB - 2025-06-06 17:10:06]
+│   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   ├── 📄 pdf-preview.tsx [2.8KB - 2025-06-06 17:10:06]
+│   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   ├── 📄 signature-canvas.tsx [2.7KB - 2025-06-06 17:10:06]
+│   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   ├── 📄 signature-capture.tsx [5.7KB - 2025-06-06 17:10:06]
+│   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   ├── 📄 step-indicator.tsx [1.4KB - 2025-06-06 17:10:06]
+│   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   └── 📄 theme-provider.tsx [292B - 2025-06-06 17:10:06]
+│       └─ [FICHIER BINAIRE - Contenu non affiché]
+
+├── 📁 hooks/
+│   ├── 📄 use-mobile.tsx [565B - 2025-06-06 17:10:06]
+│   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   └── 📄 use-toast.ts [3.9KB - 2025-06-06 17:10:06]
+│       └─ [FICHIER BINAIRE - Contenu non affiché]
+
+├── 📁 lib/
+│   ├── 📄 pdf-generator.ts [23.3KB - 2025-06-06 17:10:06]
+│   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   └── 📄 utils.ts [166B - 2025-06-06 17:10:06]
+│       └─ [FICHIER BINAIRE - Contenu non affiché]
+
+├── 📁 public/
+│   ├── 📄 placeholder-logo.png [958B - 2025-06-06 17:10:06]
+│   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   ├── 📄 placeholder-logo.svg [3.1KB - 2025-06-06 17:10:06]
+│   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   ├── 📄 placeholder-user.jpg [2.6KB - 2025-06-06 17:10:06]
+│   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   ├── 📄 placeholder.jpg [1.6KB - 2025-06-06 17:10:06]
+│   │   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+│   └── 📄 placeholder.svg [3.2KB - 2025-06-06 17:10:06]
+│       └─ [FICHIER BINAIRE - Contenu non affiché]
+
+├── 📁 styles/
+│   └── 📄 globals.css [2.4KB - 2025-06-06 17:10:06]
+│       └─ [FICHIER BINAIRE - Contenu non affiché]
+
+├── 📄 .gitignore [313B - 2025-06-06 17:10:06]
+│   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+├── 📄 components.json [443B - 2025-06-06 17:10:06]
+│   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+├── 📄 filesystem_analyzer.py [8.0KB - 2025-06-08 20:17:49]
+│   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+├── 📄 mon_analyse.txt [483.7KB - 2025-06-08 20:18:33]
+│   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+├── 📄 next.config.mjs [228B - 2025-06-06 17:10:06]
+│   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+├── 📄 package.json [2.1KB - 2025-06-06 17:10:06]
+│   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+├── 📄 pnpm-lock.yaml [92B - 2025-06-06 17:10:06]
+│   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+├── 📄 postcss.config.mjs [135B - 2025-06-06 17:10:06]
+│   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+├── 📄 structure_only.txt [8.0KB - 2025-06-08 20:18:54]
+│   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+├── 📄 tailwind.config.ts [2.5KB - 2025-06-06 17:10:06]
+│   └─ [FICHIER BINAIRE - Contenu non affiché]
+
+└── 📄 tsconfig.json [595B - 2025-06-06 17:10:06]
+    └─ [FICHIER BINAIRE - Contenu non affiché]
+
+
+================================================================================
+FIN DE L'ANALYSE
+================================================================================
