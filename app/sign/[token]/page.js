@@ -7,6 +7,7 @@ import { BankingInformation } from "@/components/banking-information"
 import { SignatureCapture } from "@/components/signature-capture"
 import { ContractCompletion } from "@/components/contract-completion"
 import { StepIndicator } from "@/components/step-indicator"
+import { LoadingOverlay } from "@/components/loading-overlay" // Importez le nouveau composant
 import { generateContractPDF } from "@/lib/pdf-generator"
 import { Loader2, AlertCircle } from "lucide-react"
 
@@ -29,6 +30,9 @@ export default function SignContract({ params }) {
   const [contractId, setContractId] = useState(null)
   const [interpreterName, setInterpreterName] = useState(null)
   const [interpreterEmail, setInterpreterEmail] = useState(null)
+  
+  // Nouvel état pour le chargement entre les étapes 3 et 4
+  const [processingPdf, setProcessingPdf] = useState(false)
 
   // Validate token on load
   useEffect(() => {
@@ -59,8 +63,10 @@ export default function SignContract({ params }) {
   const handleStepComplete = async (stepData) => {
     setContractData((prev) => ({ ...prev, ...stepData }))
     
-    // If this is the final step, save the contract
+    // Si c'est l'étape de la signature (étape 3), afficher l'overlay de chargement
     if (currentStep === 3) {
+      setProcessingPdf(true) // Activer l'overlay de chargement
+      
       try {
         // Generate PDF
         const pdfDataUri = await generateContractPDF({
@@ -90,13 +96,21 @@ export default function SignContract({ params }) {
             },
           }),
         })
+        
+        // Courte pause pour simuler le traitement (peut être supprimée en production)
+        await new Promise(resolve => setTimeout(resolve, 1000))
+        
+        // Passer à l'étape suivante
+        setCurrentStep(currentStep + 1)
       } catch (error) {
         console.error("Error saving contract:", error)
+        setError("Failed to process your contract. Please try again.")
+      } finally {
+        setProcessingPdf(false) // Désactiver l'overlay de chargement
       }
-    }
-    
-    // Proceed to next step
-    if (currentStep < 4) {
+    } 
+    // Pour les autres étapes, juste passer à l'étape suivante sans overlay
+    else if (currentStep < 4) {
       setCurrentStep(currentStep + 1)
     }
   }
@@ -141,6 +155,11 @@ export default function SignContract({ params }) {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+      {/* Afficher l'overlay de chargement pendant la génération du PDF */}
+      {processingPdf && (
+        <LoadingOverlay message="Generating your contract... This may take a few moments." />
+      )}
+      
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8">
